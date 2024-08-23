@@ -165,7 +165,6 @@ style-list-position: inline позволяет добавить padding-left,
 .cover__description-button {
   background-color: transparent;
   color: inherit;
-  font-family: inherit;
   text-transform: inherit;
   font-size: inherit;
   border: 1px solid white;
