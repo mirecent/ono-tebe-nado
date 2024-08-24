@@ -135,6 +135,14 @@ style-list-position: inline позволяет добавить padding-left,
   letter-spacing: .3em;
 }
 
+.cover__title .letter-spacing_bigger {
+  letter-spacing: .6em;
+}
+
+.cover__title .letter-spacing_normal {
+  letter-spacing: normal;
+}
+
 .cover__title-top {
   align-self: flex-start;
   line-height: 1.15em;
@@ -159,6 +167,14 @@ style-list-position: inline позволяет добавить padding-left,
 
 .cover__description-text {
   word-spacing: .8em;
+}
+
+.cover__description-text .letter-spacing_bigger {
+  word-spacing: .9em;
+}
+
+.cover__description-text .letter-spacing_little-bigger {
+  word-spacing: .85em;
 }
 
 .cover__description-button {
@@ -227,6 +243,15 @@ style-list-position: inline позволяет добавить padding-left,
   line-height: 1.2em;
 }
 
+.card__text .letter-spacing_bigger-negative {
+  letter-spacing: -.06em;
+}
+
+
+.card__text .letter-spacing_bigger {
+  letter-spacing: .13em;
+}
+
 .lots__look-more-link {
   padding-left: 40px;
   font-size: 20px;
@@ -272,6 +297,22 @@ style-list-position: inline позволяет добавить padding-left,
   row-gap: 24px;
   font-size: 20px;
   line-height: 24px;
+}
+
+.about__text .letter-spacing_little-bigger {
+  letter-spacing: .01em;
+}
+
+.about__text .letter-spacing_bigger {
+  letter-spacing: .02em;
+}
+
+.about__text .letter-spacing_much-bigger {
+  letter-spacing: .03em;
+}
+
+.about__text .letter-spacing_little-bigger-negative {
+  letter-spacing: -.01em;
 }
 
 .footer {
